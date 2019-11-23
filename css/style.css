@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*Globals*/
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+/*Startpage*/
+body{
+  background-color: #212121;
+}
+
+body h1{
+  font-family: 'Alata',cursive;
+  color: #ffffff;
+}
+
+h1::first-letter{
+  color: #B22222;
+}
+
+/*Footer*/
+footer{
+  font-family: 'Alata',cursive;
+  color: #ffffff;
+  bottom: 0px;
+  position: fixed;
+}
