@@ -24,6 +24,9 @@
         opacity: 0.5;
     }
 }
+.redText{
+  color: #B22222;
+}
 
 /*Startpage*/
 body{
@@ -31,15 +34,13 @@ body{
 }
 h1{
   font-family: 'Alata',cursive;
+  font-size: 2em;
   color: #ffffff;
-}
-h1::first-letter{
-  color: #B22222;
 }
 
 /*Footer*/
 footer{
-  font-family: 'Alata',cursive;
+  font-family: 'Roboto',cursive;
   color: #ffffff;
   bottom: 0px;
   position: fixed;
